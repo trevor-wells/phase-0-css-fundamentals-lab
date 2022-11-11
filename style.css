@@ -1,5 +1,36 @@
 body {
+  background: rgb(227, 204, 150);
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+h1,
+nav,
+p,
+div,
+figure {
+  text-align: center;
+}
+
+a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+div {
+  float: left;
+  background: rgb(91, 70, 9);
+  text-align: center;
+  width: 25%;
+}
+
+figcaption {
+  font-size: 75%;
+}
+#featured-property p{
+  margin: auto;
+  width: 800px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
